@@ -515,7 +515,9 @@
 /* small mobile :320px. */
 @media (max-width: 767px) {
  .logos {
-  height: 50px;
+  height: 80px;
+  margin-top: -59px;
+  top: 30px;
  }
 
  .faq-area .section-title {

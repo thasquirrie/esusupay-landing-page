@@ -264,7 +264,7 @@ label {
 
 .logos {
  height: 180px;
- margin: -59px;
+ margin-top: -59px;
  position: relative;
  top: 45px;
 }
@@ -350,7 +350,7 @@ label {
  transition: 0.3s;
 }
 .main-menu ul li:hover > a {
- color: #ff3494;
+ color: #0093dd;
 }
 .main-menu ul li:hover > a::before {
  width: 100%;
@@ -383,7 +383,7 @@ label {
  width: 100%;
  box-shadow: 0 0 60px 0 rgba(0, 0, 0, 0.07);
  z-index: 9999;
- background: #0093dd;
+ background: #000;
  -webkit-animation: 300ms ease-in-out 0s normal none 1 running fadeInDown;
  animation: 300ms ease-in-out 0s normal none 1 running fadeInDown;
  -webkit-box-shadow: 0 10px 15px rgba(25, 25, 25, 0.1);
@@ -2961,6 +2961,10 @@ div.single-cta:last-child {
 }
 .contact-img2 {
  margin-left: -160px;
+}
+
+.contact-img2 img {
+ width: 100%;
 }
 .contact-wrapper textarea {
  border: 0;
