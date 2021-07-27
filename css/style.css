@@ -205,9 +205,9 @@ label {
 
 .btn {
  -moz-user-select: none;
- background: transparent linear-gradient(90deg, #7d4196 0%, #ff3494 100%) 0% 0%
+ background: transparent linear-gradient(90deg, #0093dd 0%, #ff6600 100%) 0% 0%
   no-repeat padding-box;
- box-shadow: 3px 4px 25px #c63a9580;
+ box-shadow: 3px 4px 25px #0093dd;
  border: none;
  border-radius: 50px;
  color: #fff;
@@ -239,7 +239,7 @@ label {
 
 /* scrollUp */
 #scrollUp {
- background: #ff3494;
+ background: #ff6600;
  height: 45px;
  width: 45px;
  right: 50px;
@@ -1401,7 +1401,7 @@ section:hover .section-title h2::before {
  padding-right: 50px;
 }
 .choose-btn a {
- background: transparent linear-gradient(90deg, #7d4196 0%, #ff3494 100%) 0% 0%
+ background: transparent linear-gradient(90deg, #ff6600 0%, #0093dd 100%) 0% 0%
   no-repeat padding-box;
  box-shadow: 3px 4px 25px #c63a9580;
  border-radius: 10px;
@@ -1413,6 +1413,7 @@ section:hover .section-title h2::before {
  float: left;
  margin-right: 25px;
  position: relative;
+ text-align: center;
 }
 .choose-btn a .icon {
  padding: 0 20px 0 0;
@@ -1710,7 +1711,13 @@ section:hover .section-title h2::before {
  position: absolute;
  right: 8%;
  top: 8%;
+ width: 20%;
 }
+
+.qutation img {
+ width: 100%;
+}
+
 .testimonial-area h2,
 .testimonial-area p {
 }
@@ -1765,7 +1772,7 @@ section:hover .section-title h2::before {
 }
 .ta-info span {
  font-size: 14px;
- color: #7d4196;
+ color: #0093dd;
 }
 .testi-author {
  overflow: hidden;
