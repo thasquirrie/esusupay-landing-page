@@ -1423,6 +1423,8 @@ section:hover .section-title h2::before {
 .choose-btn a .text {
  z-index: 99;
  font-size: 20px;
+ text-align: center;
+ margin-left: 2rem;
 }
 
 .choose-btn a .text strong {
@@ -1430,17 +1432,19 @@ section:hover .section-title h2::before {
  margin-top: -5px;
  display: block;
  font-weight: 500;
+ text-align: justify;
 }
 
 .choose-btn a.g-btn {
  box-shadow: none;
  width: 262px;
+ margin-left: 7rem;
 }
 .g-btn::before {
  content: '';
  position: absolute;
  height: 98%;
- width: 99.1%;
+ /* width: 100%; */
  background: #fff;
  left: 1px;
  top: 1px;
@@ -1448,10 +1452,10 @@ section:hover .section-title h2::before {
 }
 
 .g-btn .text {
- color: #7d4196;
+ color: #fff;
 }
 .g-btn .text strong {
- color: #ff3494;
+ color: #fff;
 }
 /* 9. brand */
 .single-brand {
@@ -1862,7 +1866,7 @@ section:hover .section-title h2::before {
  width: 100%;
  text-align: left;
  padding-right: 55px;
- background: transparent linear-gradient(90deg, #7d4196 0%, #ff3494 100%) 0% 0%
+ background: transparent linear-gradient(90deg, #0093dd 0%, #ff6600 100%) 0% 0%
   no-repeat padding-box;
  border-radius: 10px;
 }
@@ -4666,7 +4670,7 @@ pre cite {
  border-radius: 3px;
 }
 .swiper-pagination-bullet-active {
- background: #ff3494;
+ background: #ff6600;
 }
 /* 8. newslater-area */
 .newslater-area h2,
